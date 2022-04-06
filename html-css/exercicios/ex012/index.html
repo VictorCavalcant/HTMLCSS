@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+
+<body>
+    <h1>Inserindo vídeos hospeados localmente</h1>
+    <p>Este video está hospeado no meu próprio servidor.</p>
+
+    <video width="500" poster="imagens/merdapostagem.png" controls autoplay loop>
+        <source src="midia/video-br_ifunny_co-16395945668311.mp4" type="video/mp4">
+        <!--
+        <source src="midia/video-br_ifunny_co-16395945668311.m4v" type="video/mp4">    <-- Para tipo M4V
+        <source src="midia/video-br_ifunny_co-16395945668311.webm" type="video/webm"> <-- Para tipo WEBM
+        <source src="midia/video-br_ifunny_co-16395945668311.ogv" type="video/ogv">  <--- Para tipo OGV
+        -->
+        <p>Seu navegador não é compativel com reprodução de vídeo.</p>
+    </video>
+
+    <h1>Inserindo videos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/UGsQ2NmD1DY" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</body>
+
+</html>
